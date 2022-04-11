@@ -103,6 +103,14 @@ speed = ["orjson (>=3.5.4)", "aiodns (>=1.1)", "brotli", "cchardet"]
 voice = ["PyNaCl (>=1.3.0,<1.5)"]
 
 [[package]]
+name = "xmltodict"
+version = "0.12.0"
+description = "Makes working with XML feel like you are working with JSON"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[[package]]
 name = "yarl"
 version = "1.7.2"
 description = "Yet another URL library"
@@ -117,7 +125,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "ee366c2d6db83bd0f437e36f3dfedb9911f23afa7fb15f96f59a9adecedf99f8"
+content-hash = "5d4582c5a72782ffb867ce4dcba792916fefb33cbedf3721546b6cfcdce4287b"
 
 [metadata.files]
 aiohttp = [
@@ -338,6 +346,10 @@ multidict = [
 ]
 nextcord = [
     {file = "nextcord-2.0.0a10.tar.gz", hash = "sha256:5126ac396748df07df7c32c2d4dadf060d29f794c35762609228e19b85a58cdf"},
+]
+xmltodict = [
+    {file = "xmltodict-0.12.0-py2.py3-none-any.whl", hash = "sha256:8bbcb45cc982f48b2ca8fe7e7827c5d792f217ecf1792626f808bf41c3b86051"},
+    {file = "xmltodict-0.12.0.tar.gz", hash = "sha256:50d8c638ed7ecb88d90561beedbf720c9b4e851a9fa6c47ebd64e99d166d8a21"},
 ]
 yarl = [
     {file = "yarl-1.7.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:f2a8508f7350512434e41065684076f640ecce176d262a7d54f0da41d99c5a95"},
