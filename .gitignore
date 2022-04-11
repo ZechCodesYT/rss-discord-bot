@@ -1,3 +1,4 @@
 *.secret
 __pycache__
 .idea
+db.json
