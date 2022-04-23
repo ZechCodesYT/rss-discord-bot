@@ -2,6 +2,10 @@
 
 This is a simple bot that monitors RSS feeds and announces when new items show up in the feeds.
 
+## Live Stream
+
+Watch the video of me building this bot start to finish on [YouTube!!!](https://youtu.be/RCAJie1rmvU?t=1741)
+
 ## Running
 
 Create a file named `token.secret` and put your Discord bot token in that file. Next run the following commands:
